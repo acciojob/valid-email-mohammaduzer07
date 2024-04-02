@@ -1,7 +1,7 @@
 function validEmail(str) {
 
   // your JS code here.
-	let atTheRate = false;
+	let atTheRate = 0;
 	for(int i = 0; i < str.length; i++){
 		if(str.charAt(0) === '@' ) {
 			return false;
